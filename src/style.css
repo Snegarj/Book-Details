@@ -1,0 +1,115 @@
+.container{
+        padding: 20px;
+}
+h1{
+    margin: 0px;
+}
+
+.common-table th {
+    color: #273251 !important;
+    font-weight: 700 !important;
+ 
+}
+.common-table td {
+    color: #1c1725 !important;
+    font-weight: 500 !important;
+ 
+}
+.common-table tbody tr:nth-child(even), thead tr{
+    background-color: #f0f0f0;
+}
+table{
+border: 1px solid #eceaea;
+}
+tbody tr{
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+    border-right: 2px solid transparent ;
+    border-left: 2px solid transparent ;
+
+}
+tbody tr:hover{
+    /* background-color:   white !important;  */
+       box-shadow: 0px 2px 4px #4c4b4b62; 
+   border-color: #3bb5ea !important;
+   outline: 2px solid #3bb5ea ;
+}
+.common-table thead {
+    border-bottom: 2px solid #1e1e1e !important;
+}
+.common-pagination{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-wrap: wrap;
+   
+}
+.common-pagination span{
+    font-size: 14px !important;
+}
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: transparent !important;
+    border: 2px solid #3bb5ea  ;
+    color: #3bb5ea;
+}
+.page-size{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 4px 10px !important;
+    padding-right: 32px !important;
+    font-size: 14px !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+
+  margin-right: 10px;
+}
+
+/* Table Features */
+.table-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.table-features .features{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     gap: 10px;
+
+     flex-wrap: wrap;
+}
+.table-features .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 8px 5px !important;
+
+}
+.table-features .MuiFormControl-root.MuiTextField-root {
+    margin-right: 10px !important;
+    
+}
+.table-features .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    margin: 0px 5px !important;
+
+}
+ .table-features .MuiButtonBase-root.MuiToggleButtonGroup-grouped {
+    padding: 6px !important;
+ }
+ .table-features .export-icon  span{
+    color: black;
+    font-size: 14px;
+    margin-left: 5px;
+ 
+}
+.table-features .export-icon{
+    border-radius: 10px !important;
+}
+.table-features .css-ueukts-MuiButtonBase-root-MuiToggleButton-root{
+    text-transform: capitalize;
+}
